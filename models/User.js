@@ -20,9 +20,9 @@ const UserSchema=new mongoose.Schema(
             unique: true,
             max: 50
         },
-        friend: {
+        friends: {
             type: Array,
-            default: []
+            default: [],
         },
         password: {
             type: String,
